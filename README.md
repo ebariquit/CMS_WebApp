@@ -14,10 +14,9 @@ XAMPP provides everything you need.
 
 # Plans for Future
 - Upgrade from blog to forum
-    - Allow registered users to post articles.
-    - Admin can post and remove articles.
-    - 'Article' class becomes 'Discussion' class
-        - Discussion: Title, Summary, Posts (rather than Content).
-        - Define Posts class
-            - User, Date, Content.
+    - Allow registered users to post articles.git
+    - Admin can post and remove articles
+    - 'Article' class becomes 'Discussion' class, which will be composed of 'Post' class instances
+        - Discussion class: User, Date, Title, Summary, Posts (rather than Content).
+        - Post class: User, Date, Content.
 
