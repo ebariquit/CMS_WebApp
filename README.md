@@ -11,5 +11,3 @@ A single admin account has the ability to write, edit, or delete articles within
 - PHP
 
 XAMPP provides everything you need.
-
-test
