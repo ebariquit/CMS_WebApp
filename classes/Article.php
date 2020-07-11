@@ -3,11 +3,11 @@
 	class Article 
 	{
 		
-		public 	$id;
-		public 	$publicationDate;
-		public	$title;
-		public 	$summary;
-		public 	$content;
+		private $id;
+		private $publicationDate;
+		private	$title;
+		private $summary;
+		private $content;
 		
 		// Constructor.
 		// Takes optional array ($data) to populate class variables.
