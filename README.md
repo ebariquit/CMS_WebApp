@@ -29,12 +29,3 @@ Start your Apache Server and navigate to localhost/cms_webapp (or whatever you c
 Click 'site-admin' link at bottom of page and login with your admin credentials. 
 
 Create, edit, or delete articles for users to read.
-
-# Plans for Future
-- Upgrade from blog to forum
-    - Allow registered users to post articles.git
-    - Admin can post and remove articles
-    - 'Article' class becomes 'Discussion' class, which will be composed of 'Post' class instances
-        - Discussion class: User, Date, Title, Summary, Posts (rather than Content).
-        - Post class: User, Date, Content.
-
